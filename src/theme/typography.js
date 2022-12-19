@@ -2,10 +2,14 @@ import { StyleSheet } from 'react-native';
 
 export const typography = StyleSheet.create({
   title: {
-    fontSize: 18,
+    fontSize: 30,
     fontWeight: '700',
   },
-  text: {
+  paragraph_regular: {
+    fontSize: 16,
+    fontWeight: '400',
+  },
+  paragraph_medium: {
     fontSize: 16,
     fontWeight: '400',
   },

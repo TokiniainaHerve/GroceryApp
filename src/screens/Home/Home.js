@@ -14,7 +14,7 @@ export function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={[typography.title, { color: colors.text }]}>
+      <Text style={[typography.paragraph_medium, { color: colors.text }]}>
         {strings.home.message} {user?.username}
       </Text>
       <Text style={[typography.text, { color: colors.text }]}>
