@@ -4,7 +4,7 @@ import React from 'react';
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 import { labelTypes, typography,shadow } from '@/theme';
 import LinearGradient from 'react-native-linear-gradient';
-import { TextLabel } from './TextLabel';
+import { TextLabel } from '../TextLabel';
 const styles = StyleSheet.create({
   button: {
     alignItems: 'center',

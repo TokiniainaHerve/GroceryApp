@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should match the snapshot 1`] = `
+<View
+  accessible={true}
+  collapsable={false}
+  focusable={false}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "rgb(216, 216, 216)",
+      "elevation": 5,
+      "justifyContent": "center",
+      "opacity": 1,
+      "shadowColor": "#000000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 3.84,
+      "width": "100%",
+    }
+  }
+>
+  <BVLinearGradient
+    colors={
+      Array [
+        4278221567,
+        undefined,
+      ]
+    }
+    endPoint={
+      Object {
+        "x": 1,
+        "y": 0,
+      }
+    }
+    locations={null}
+    startPoint={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    style={
+      Object {
+        "alignItems": "center",
+        "borderRadius": 8,
+        "height": 60,
+        "justifyContent": "center",
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "fontFamily": "Poppins-Regular",
+            "fontSize": 16,
+          },
+          Object {
+            "color": "rgb(28, 28, 30)",
+          },
+          Object {
+            "color": undefined,
+          },
+        ]
+      }
+    >
+      test button
+    </Text>
+  </BVLinearGradient>
+</View>
+`;
