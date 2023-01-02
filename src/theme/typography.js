@@ -1,20 +1,31 @@
 import { StyleSheet } from 'react-native';
 
 export const typography = StyleSheet.create({
-  title: {
-    fontSize: 18,
-    fontWeight: '700',
+  title_bold: {
+    fontSize: 30,
+    fontFamily:"Poppins-Semibold",
   },
-  text: {
+  paragraph_regular: {
     fontSize: 16,
-    fontWeight: '400',
+    fontFamily:"Poppins-Regular", 
+  },
+  paragraph_medium: {
+    fontSize: 16,
+    fontFamily:"Poppins-Medium",
   },
   label: {
-    fontSize: 16,
-    fontWeight: '700',
+    fontSize: 14,
+    fontFamily:"Poppins-Medium",
   },
   error: {
     fontSize: 14,
-    fontWeight: '400',
   },
 });
+
+export const labelTypes = {
+  TITLE_BOLD: 'title_bold',
+  PARAGRAPH_MEDIUM: 'paragraph_medium',
+  PARAGRAPH_REGULAR: 'paragraph_regular',
+  LABEL:'label',
+  error:'error'
+};

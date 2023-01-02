@@ -6,7 +6,9 @@ import { useSelector } from 'react-redux';
 import { strings } from '@/localization';
 import { getUser } from '@/selectors/UserSelectors';
 import { styles } from '@/screens/Home/Home.styles';
-import { typography } from '@/theme';
+import { typography,labelTypes } from '@/theme';
+import { TextLabel } from '@/components/TextLabel';
+import { Button } from '@/components';
 
 export function Home() {
   const { colors } = useTheme();
@@ -14,12 +16,11 @@ export function Home() {
 
   return (
     <View style={styles.container}>
-      <Text style={[typography.title, { color: colors.text }]}>
-        {strings.home.message} {user?.username}
-      </Text>
-      <Text style={[typography.text, { color: colors.text }]}>
-        {strings.home.variant} {Config.BUILD_VARIANT}
-      </Text>
+      
+      <TextLabel text={"Hello world" } type={labelTypes.PARAGRAPH_MEDIUM}/>
+      <Button
+          title={"test button"}
+        />
     </View>
   );
 }
